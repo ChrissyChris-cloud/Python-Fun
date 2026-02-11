@@ -1,7 +1,7 @@
 from scapy.all import ARP, Ether, srp
 
 #Define my network (replace with my subnet)
-network = "192.168.1.1/24"
+network = ""
 
 def scan_network(ip_range):
     # create ARP request pack
