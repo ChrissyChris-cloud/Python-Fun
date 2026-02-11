@@ -22,6 +22,6 @@ def scan_ports(target, ports):
         print(f"No open ports found on {target}")
 
 # Example Usage
-target_ip = "192.168.1.1"  # Change to your target IP
+target_ip = ""  # Change to your target IP
 port_range = range(1, 1024)  # Scans first 1024 ports
 scan_ports(target_ip, port_range)

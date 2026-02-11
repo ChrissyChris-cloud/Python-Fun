@@ -1,7 +1,7 @@
 import socket
 
 # define target
-target = "172.166.156.100"
+target = "" # change to target IP or hostname
 ports = [22, 80, 443, 3306] # common ports to check
 
 for port in ports:
